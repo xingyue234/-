@@ -1,0 +1,38 @@
+<view class="cal-wrapper">
+  <view class="about-me">
+    <icon id="icon-about" type="info" size="28" color="rgba(255, 255, 255, .8)" bindtap="showAbout"/>
+    <view id="show-num">{{calc.showNum}}</view>
+    <view id="show-op">{{calc.showOp}}</view>
+  </view>
+  <view class="panel-btns">
+    <view class="btn-rows">
+      <button class="btn" bindtap="btnClicked" data-num="AC">AC</button>
+      <button class="btn" bindtap="btnClicked" data-num="DEL">DEL</button>
+      <button class="btn" bindtap="btnClicked" data-num="%">%</button>
+      <button class="btn" bindtap="btnClicked" data-num="/">÷</button>
+    </view>
+    <view class="btn-rows">
+      <button class="btn" bindtap="btnClicked" data-num="7">7</button>
+      <button class="btn" bindtap="btnClicked" data-num="8">8</button>
+      <button class="btn" bindtap="btnClicked" data-num="9">9</button>
+      <button class="btn" bindtap="btnClicked" data-num="×">×</button>
+    </view>
+    <view class="btn-rows">
+      <button class="btn" bindtap="btnClicked" data-num="4">4</button>
+      <button class="btn" bindtap="btnClicked" data-num="5">5</button>
+      <button class="btn" bindtap="btnClicked" data-num="6">6</button>
+      <button class="btn" bindtap="btnClicked" data-num="-">-</button>
+    </view>
+    <view class="btn-rows">
+      <button class="btn" bindtap="btnClicked" data-num="1">1</button>
+      <button class="btn" bindtap="btnClicked" data-num="2">2</button>
+      <button class="btn" bindtap="btnClicked" data-num="3">3</button>
+      <button class="btn" bindtap="btnClicked" data-num="+">+</button>
+    </view>
+    <view class="btn-rows">
+      <button class="btn two-btn" bindtap="btnClicked" data-num="0">0</button>
+      <button class="btn" bindtap="btnClicked" data-num=".">.</button>
+      <button class="btn" bindtap="btnClicked" data-num="=">=</button>
+    </view>
+  </view>
+</view>

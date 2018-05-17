@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "my calculator!",
+    "navigationBarBackgroundColor": "white",
+    "backgroundColorTop": "red",
+    "backgroundTextStyle": "light",
+    "navigationBarTextStyle": "black"
+  },
+  "debug": true
+}

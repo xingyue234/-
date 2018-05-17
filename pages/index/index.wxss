@@ -1,0 +1,75 @@
+button{
+  padding: 0;
+  border-radius: 0;
+  background: rgba(255, 255, 255, .1);
+  border: none;
+  box-sizing: border-box;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  color: #fff;
+  background-clip: padding-box;
+  font-weight: 400;
+}
+.button-hover{
+  background-color: rgba(255, 255, 255, 0.8); 
+  opacity: 0.7;
+}
+button::after{
+  border-radius: 0;
+  border: none;
+}
+.cal-wrapper{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(#8e2e84 60%, #302754 100%);
+  color: white;
+}
+.about-me{
+  width: 100%;
+  flex: 1;
+  position: relative;
+}
+#icon-about{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+#show-num{
+  position: absolute;
+  right: 10px;
+  bottom: 38px;
+  font-size: 36px;
+}
+#show-op{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 16px;
+}
+.panel-btns{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+}
+.btn-rows{
+  display: flex;
+  width: 100%;
+  flex: 1;
+}
+.btn-rows .btn{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.btn-rows .btn:last-child{
+  border-right: none;
+}
+.btn-rows .two-btn{
+  flex: 2;
+}
